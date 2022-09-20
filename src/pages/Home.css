@@ -1,0 +1,125 @@
+.home {
+    position: relative;
+    width: 100vw  ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.schome {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    overflow-y: scroll;
+    width: calc(100% - 5px) ;
+    height: 100%;
+    
+}
+.landHead {
+    width: 100%;
+    height: auto;
+    /* left: 83px; */
+    top: 15px;
+    width: 80%;
+}
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #7fffd413;
+    filter: blur(15);
+    border-radius: 18px;
+    border: 2px solid #7fffd4d9;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 60%;
+    height: 100%;
+}
+.header h1 {
+    color: #7fffd4d9;
+    font-size: 1.5vmax;
+}
+.header p {
+    color: #e1e7ec;
+    font-size: 1.3vmax;
+}
+.img_pers {
+    width: 20%;
+}
+
+.header input {
+    padding: 8px;
+    border-radius: 8px;
+    font-weight:bolder;
+    font-size: 1vmax;
+    background-color:transparent;
+    border: 1px solid #aa60f0;
+    color: #e1e7ec;
+    transition: 1s;
+}
+
+.header input:hover {
+    background-color: #470de4;
+    border: 1px solid #470de4;
+    color: white;
+}
+.img_pers {
+    width: 40%;
+}
+.img_pers img {
+    width: 100%;
+}
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #7fffd413;
+    filter: blur(15);
+    border-radius: 18px;
+    border: 2px solid #7fffd4d9;
+}
+.cndt ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5vmax;
+    border-radius: 8px;
+    padding: 8px;
+    transition:  0.6s;
+    color: #c6c1c1;
+}
+.cndt ul li:hover {
+    background-color: #470de4;
+}
+.copyr {
+    color: rgba(240, 248, 255, 0.746);
+}
+.copyr p{
+    font-size: 1.5vmax;
+}
+.titlecp{
+   color:rgba(240, 248, 255, 0.746);
+   margin:20px 70px;
+   font-size: 2vmax;
+}
+

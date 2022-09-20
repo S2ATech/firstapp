@@ -1,0 +1,39 @@
+.programes-cl {
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.prog{
+    width: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #7fffd413;
+    filter: blur(15);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #7fffd4d9;  
+    color: white;
+    transition: 1s;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid  #470de4;
+}
+.card:hover h1{
+    color: #470de4;
+}
+
+.card :nth-child(1) {
+    font-size: 2.5rem;
+    color: #7fffd4d9;
+}

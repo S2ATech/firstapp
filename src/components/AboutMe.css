@@ -1,0 +1,40 @@
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    /* margin-left: 140px; */
+    background-color: #7fffd413;
+    filter: blur(15);
+    border-radius: 18px;
+    border: 2px solid #7fffd4d9;
+    color: white;
+}
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mypict {
+    width: 200px;
+}
+.mypict img {
+    width: 100%;
+}
+.decsme {
+    width: 70%;
+}
+.decsme h1{
+    color: #7fffd4d9;
+    font-size: 1.9vmax;
+}
+.decsme h4{
+    font-size: 1.6vmax;
+}
+.decsme p{
+    font-size: 1.5vmax;
+}

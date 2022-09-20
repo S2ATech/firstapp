@@ -1,0 +1,16 @@
+.logMain {
+    position: absolute;
+    display: flex;
+    top: -25px;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 60px) ;
+    height: 100vh;
+}
+.logBtn {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
